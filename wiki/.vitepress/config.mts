@@ -6,14 +6,14 @@ export default defineConfig({
 	title: 'Piano Tiles 2 Wiki',
 	description:
 		"Welcome to the Piano Tiles 2 Wiki! Here, you'll find information about the game itself, as well as resources for modding.",
-	head: [['link', { rel: 'icon', type: 'image/png', href: '/pianotiles2-logo-mini.png' }]],
+	head: [['link', { rel: 'icon', type: 'image/png', href: '/wiki/pianotiles2-logo-mini.png' }]],
 	themeConfig: {
 		editLink: {
 			pattern: 'https://github.com/pianotiles2-community/wiki/edit/main/wiki/:path',
 		},
 
 		logo: {
-			src: '/wiki/pianotiles2-icon-mini.png',
+			src: '/pianotiles2-icon-mini.png',
 		},
 
 		nav: [
