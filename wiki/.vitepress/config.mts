@@ -6,7 +6,34 @@ export default defineConfig({
 	title: 'Piano Tiles 2 Wiki',
 	description:
 		"Welcome to the Piano Tiles 2 Wiki! Here, you'll find information about the game itself, as well as resources for modding.",
-	head: [['link', { rel: 'icon', type: 'image/png', href: '/wiki/pianotiles2-logo-mini.png' }]],
+	head: [
+		['link', { rel: 'icon', type: 'image/png', href: '/wiki/pianotiles2-logo-mini.png' }],
+		['meta', { name: 'theme-color', content: '#52d5f2' }],
+		[
+			'meta',
+			{
+				property: 'og:image',
+				content:
+					'https://raw.githubusercontent.com/pianotiles2-community/wiki/main/wiki/public/pianotiles2-og.png',
+			},
+		],
+		['meta', { property: 'og:image:alt', content: 'Piano Tiles 2' }],
+		['meta', { property: 'og:image:width', content: '1280' }],
+		['meta', { property: 'og:image:height', content: '720' }],
+		['meta', { property: 'og:locale', content: 'en' }],
+		['meta', { property: 'og:site_name', content: 'Piano Tiles 2 Wiki' }],
+		['meta', { property: 'og:type', content: 'website' }],
+		['meta', { property: 'og:title', content: 'Piano Tiles 2 Wiki' }],
+		['meta', { property: 'og:url', content: 'https://pianotiles2-community.github.io/wiki/' }],
+		[
+			'meta',
+			{
+				property: 'og:description',
+				content:
+					"Welcome to the Piano Tiles 2 Wiki! Here, you'll find information about the game itself, as well as resources for modding.",
+			},
+		],
+	],
 	themeConfig: {
 		editLink: {
 			pattern: 'https://github.com/pianotiles2-community/wiki/edit/main/wiki/:path',
