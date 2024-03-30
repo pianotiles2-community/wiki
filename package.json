@@ -1,0 +1,27 @@
+{
+	"name": "pianotiles2-wiki",
+	"private": true,
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^3.2.5",
+		"vitepress": "^1.0.1"
+	},
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs",
+		"format": "prettier --write ."
+	},
+	"prettier": {
+		"arrowParens": "avoid",
+		"endOfLine": "crlf",
+		"printWidth": 120,
+		"proseWrap": "never",
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "all",
+		"useTabs": true
+	}
+}
