@@ -13,7 +13,7 @@ export default defineConfig({
 		},
 
 		logo: {
-			src: '/pianotiles2-icon-mini.png',
+			src: '/wiki/pianotiles2-icon-mini.png',
 		},
 
 		nav: [
