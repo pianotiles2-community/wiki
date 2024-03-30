@@ -10,7 +10,7 @@ hero:
           link: /creating-your-first-piano-tiles-2-song
         - theme: alt
           text: GitHub
-          link: https://github.com/pianotiles2-wiki/pianotiles2-wiki.github.io
+          link: https://github.com/pianotiles2-community/wiki
     image:
         src: /mascot.png
         alt: Piano Tiles 2
