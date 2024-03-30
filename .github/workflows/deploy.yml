@@ -39,12 +39,12 @@ jobs:
               run: yarn install
 
             - name: Build with VitePress
-              run: yarn run docs:build
+              run: yarn run wiki:build
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: docs/.vitepress/dist
+                  path: wiki/.vitepress/dist
 
     deploy:
         environment:

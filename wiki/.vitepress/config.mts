@@ -8,7 +8,7 @@ export default defineConfig({
 	head: [['link', { rel: 'icon', type: 'image/png', href: '/pianotiles2-logo-mini.png' }]],
 	themeConfig: {
 		editLink: {
-			pattern: 'https://github.com/pianotiles2-community/pianotiles2-wiki.github.io/edit/main/docs/:path',
+			pattern: 'https://github.com/pianotiles2-community/pianotiles2-wiki.github.io/edit/main/wiki/:path',
 		},
 
 		logo: {

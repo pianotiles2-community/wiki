@@ -8,9 +8,9 @@
 		"vitepress": "^1.0.1"
 	},
 	"scripts": {
-		"docs:dev": "vitepress dev docs",
-		"docs:build": "vitepress build docs",
-		"docs:preview": "vitepress preview docs",
+		"wiki:dev": "vitepress dev wiki",
+		"wiki:build": "vitepress build wiki",
+		"wiki:preview": "vitepress preview wiki",
 		"format": "prettier --write ."
 	},
 	"prettier": {

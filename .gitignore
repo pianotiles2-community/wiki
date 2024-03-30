@@ -1,4 +1,4 @@
 
 /.vitepress
-/docs/.vitepress/cache
+/wiki/.vitepress/cache
 /node_modules
