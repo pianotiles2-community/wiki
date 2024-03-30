@@ -67,7 +67,7 @@ export default defineConfig({
 			},
 		],
 
-		socialLinks: [{ icon: 'github', link: 'https://github.com/pianotiles2-community/pianotiles2-wiki.github.io' }],
+		socialLinks: [{ icon: 'github', link: 'https://github.com/pianotiles2-community/wiki' }],
 
 		footer: {
 			message: 'Released under the MIT License.',
