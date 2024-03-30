@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
 	lastUpdated: true,
+	base: '/wiki/',
 	title: 'Piano Tiles 2 Wiki',
 	description:
 		"Welcome to the Piano Tiles 2 Wiki! Here, you'll find information about the game itself, as well as resources for modding.",
