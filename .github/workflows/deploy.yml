@@ -3,8 +3,6 @@ name: Deploy VitePress site to Pages
 on:
     push:
         branches: [main]
-    pull_request:
-        branches: [main]
 
     workflow_dispatch:
 
@@ -29,7 +27,7 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
-                  node-version: 20
+                  node-version: latest
                   cache: yarn
 
             - name: Setup Pages
