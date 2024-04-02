@@ -74,8 +74,6 @@ This will create the `midi2json` executable in the current directory.
 
 ## Troubleshooting
 
-### Warning and Error Messages
-
 `midi2json` and the underlying MIDI library might display warnings and errors during conversion. Here's a table explaining some common messages:
 
 | Message | Description | Solution |
