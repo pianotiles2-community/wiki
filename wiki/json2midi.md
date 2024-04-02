@@ -67,13 +67,13 @@ This will create the `json2midi` executable in the current directory.
 
 1. **Automatic mode:** If your JSON file contains "bpm" and "baseBeats" values, simply run:
 
-```sh
+```bash
 ./json2midi song.json
 ```
 
 2. **Manual mode:** If you need to specify "bpm" and "baseBeats" values yourself, run:
 
-```sh
+```bash
 ./json2midi song.json [bpm1] [baseBeats1] [bpm2] [baseBeats2] ...
 ```
 
@@ -81,7 +81,7 @@ This will create the `json2midi` executable in the current directory.
 
 If you have a CSV file containing information about multiple songs (e.g., music_json.csv), you can convert them all at once:
 
-```sh
+```bash
 ./json2midi music_json.csv
 ```
 
