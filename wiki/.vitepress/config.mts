@@ -64,6 +64,7 @@ export default defineConfig({
 				text: 'Tools',
 				items: [
 					{ text: 'json2midi', link: '/json2midi' },
+					{ text: 'midi2json', link: '/midi2json' },
 					{ text: 'Apktool', link: '/apktool' },
 				],
 			},
