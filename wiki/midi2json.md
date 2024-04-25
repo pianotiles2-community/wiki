@@ -6,6 +6,14 @@ This guide will walk you through the process of using `midi2json`, from setting 
 
 ## Environment Setup (Windows)
 
+::: tip
+
+You can try using this tool directly in your web browser!
+
+[Click here to open in a new tab.](https://pianotiles2-community.github.io/midi2json/)
+
+:::
+
 ### Download and Install MSYS2
 
 -   Visit the MSYS2 website: https://www.msys2.org/
